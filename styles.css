@@ -67,6 +67,7 @@ h6 {
     flex: 3;
     background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #main {
