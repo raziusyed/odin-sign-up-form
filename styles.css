@@ -20,6 +20,8 @@
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    height: 100vh;
 }
 
 img,
@@ -59,4 +61,14 @@ h4,
 h5,
 h6 {
     text-wrap: balance;
+}
+
+#side {
+    flex: 3;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+}
+
+#main {
+    flex: 5;
 }
