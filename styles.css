@@ -86,22 +86,47 @@ h6 {
 #logo {
     background-color: rgba(0, 0, 0, 0.5);
     height: 125px;
-    margin-top: 200px;
+    margin-top: 175px;
     font-family: 'Norse', Tahoma, Verdana, sans-serif;
     color: white;
     font-size: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     min-width: max-content;
 }
 
 #logo img {
-    height: 7rem;
+    height: 6rem;
     width: auto;
 }
 
 #main {
     flex: 5;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#top {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+#top pre {
+    max-inline-size: 55ch;
+    white-space: pre-wrap;
+    margin-top: auto;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+form {
+    height: calc(100vh - 600px);
+}
+
+#bottom {
+    height: 300px;
 }
