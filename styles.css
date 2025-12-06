@@ -68,6 +68,38 @@ h6 {
     background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#side p {
+    margin-top: auto;
+}
+
+#side p, a {
+    color: white;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+#logo {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 125px;
+    margin-top: 200px;
+    font-family: 'Norse', Tahoma, Verdana, sans-serif;
+    color: white;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-width: max-content;
+}
+
+#logo img {
+    height: 7rem;
+    width: auto;
 }
 
 #main {
