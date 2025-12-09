@@ -44,18 +44,21 @@ You <em>know</em> you want to.
                     </div>
                     <div class="row">
                         <p><label for="pass-one">PASSWORD</label><input type="password" id="pass-one" name="pass-one"
-                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"
+                                required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"
                                 title="Password must contain at least one number, one uppercase and lowercase letter, one special character, and be at least 8 characters long.">
                         </p>
                         <p><label for="pass-two">CONFIRM PASSWORD</label><input type="password" id="pass-two"
-                                name="pass-two"
+                                name="pass-two" required
                                 pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"
                                 title="Password must contain at least one number, one uppercase and lowercase letter, one special character, and be at least 8 characters long.">
                         </p>
                     </div>
                 </div>
         </form>
-        <div id="bottom"></div>
+        <div id="bottom">
+            <button type="submit" form="sign-up-form">Create Account</button>
+            <p>Already have an account? <span>Log in</span></p>
+        </div>
     </div>
 </body>
 
